@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ss , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>calorias</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../output/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../../output/ejercicio_1_cap14/style/stlyle_ejer20.css">
+
+  </head>
+<body>
+  <header>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <i class="fa fa-address-card" aria-hidden="true"></i>
+        </a>
+      </nav>
+      <br>
+      <div class="container px-lg-12">
+          <div class="row mx-lg-n12">
+            <div class="col py-12 px-lg-5 border bg-light"><h1>Calculo de Calorias</h1>
+              <br>
+              <form id="myForm">
+              <div class="form-check">
+                <input  id="f" class="form-check-input" type="radio" name="gender" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                  Female
+                </label>
+              </div>
+              <div class="form-check">
+                <input  id="m" class="form-check-input" type="radio" name="gender">
+                <label class="form-check-label" for="exampleRadios2">
+                  Male
+                </label> 
+                <div class="row mt-3"></div>
+                <div class="row">
+                  <div class="col">
+                   Weight <input  id= "weigth" type="number" class="form-control"  value= "150" placeholder="Weight">
+                  </div>
+                  <div class="col">
+                   Height <input id="heigth" type="number" class="form-control"  value= "5" min="5" max="7" placeholder="Height">
+                  </div>
+                  <div class="col">
+                    Feet<input id="hfeet" type="number" class="form-control"  value= "6" max="11" min="0"  placeholder="Feet">
+                   </div>
+                   <div class="col">
+                    Age <input id="age" type="number" class="form-control"  value= "38" placeholder="age">
+                   </div>
+                   <div class="col">
+                     <label for="etiqueta">
+                    Life Style<input id="lifes" type="number" class="form-control"  value= "1" min="1" max="5" placeholder="Life">
+                     1:Low Activity <br>
+                     5: High Activity
+                  </label> 
+                  </div>
+                </div>
+              </form>
+        </div>
+        <script src="38_projet.js"></script>
+  </header>  
+</body>
+</html>
